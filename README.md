@@ -3,9 +3,23 @@ FizzBuzz
 
 The fizzbuzz script lets you play a game called FizzBuzz.
 
-How to use
+How to run
 ----------
 
 ```shell
-fizzbuzz.rb
+irb
+require './lib/fizzbuzz'
+```
+
+Example on how to play
+----------
+```shell
+fizzbuzz(15)
+	"FizzBuzz"
+
+fizzbuzz(3)
+	"Fizz"
+
+fizzbuzz(5)
+	"Buzz"
 ```
